@@ -1,0 +1,32 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/cache/simpleconfig"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json",
+                    "Cache-Control": "max-age=10"
+                },
+                "body": "{\"configs\":{\"config01\":\"value1\",\"config02\":\"value2\"}}"
+            }
+        },
+        {
+            "request": {
+                "method": "POST",
+                "url": "/cache/simpleconfig"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json",
+                    "Cache-Control": "max-age=10"
+                },
+                "body": "{\"configs\":{\"post_config01\":\"value1\",\"post_config02\":\"value2\"}}"
+            }
+        }
+    ]
+}
