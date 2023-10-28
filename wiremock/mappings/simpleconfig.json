@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/simpleconfig"
+    },
+    "response": {
+        "status": 200,
+        "headers" : {
+                "Content-Type": "application/json"
+        },
+        "body": "{\"configs\":{\"config01\":\"value1\",\"config02\":\"value2\"}}"
+    }
+}
